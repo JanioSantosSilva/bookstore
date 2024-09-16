@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ebac"
+version = "0.1.0"
+description = "Projeto de aula da EBAC."
+authors = ["Janio <jose.j.santos.silva@avanade.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "^7.4.3"
+factory-boy = "^3.3.0"
+django = "^5.1.1"
+djangorestframework = "^3.15.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
